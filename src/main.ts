@@ -30,6 +30,7 @@ controlButtonEl?.addEventListener("click", () => {
   init();
 });
 
+//@ts-ignore - Shh
 densityControl?.addEventListener("change", ({ target: { value } }) => {
   const output = densityControl.nextSibling;
 
