@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  /* background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #fdfdff,
+    #fbfbff,
+    #f8f9ff,
+    #f5f7ff,
+    #e6ebff,
+    #d6e0ff,
+    #c5d5ff,
+    #aabcff,
+    #97a0ff,
+    #8f82ff,
+    #905ffb
+  ); */
+  background-image: url("./assets/images/soccer-net.jpg");
+  background-size: cover;
+}
+
+button {
+  background-color: #fff;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  margin: auto;
+  padding: 1rem;
+  font-size: 4rem;
+}
+
+.controls {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 6px;
+  border: 0;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 0.5rem;
+  visibility: hidden;
+}
+
+.visible-controls {
+  visibility: visible;
+}
+
+.controls > button {
+  background-color: blue;
+  border-radius: 6px;
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  cursor: pointer;
+  color: #fff;
+  margin: auto;
+  padding: 0.25rem;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  width: 100%;
+}
